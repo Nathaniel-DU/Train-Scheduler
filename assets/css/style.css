@@ -1,0 +1,21 @@
+.jumbotron{
+	background-color: #cabe85;
+	color: #eeeecc;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.panel-heading{
+	padding-top: 0.25%;
+}
+
+label{
+    color:black;
+}
+
+h3{
+    color:black;
+}
+#add-train {
+    background-color: #cabe85;
+}
