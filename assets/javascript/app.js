@@ -8,7 +8,7 @@ $(document).ready(function(){
         messagingSenderId: "891495617972",
         appId: "1:891495617972:web:368a720447d210b8888ee1"
     };
-    firebase.initializeApp(config);
+    firebase.initializeApp(firebaseConfig);
 
     // A variable to reference the database.
     var database = firebase.database();
