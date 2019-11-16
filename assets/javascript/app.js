@@ -21,13 +21,13 @@ $(document).ready(function(){
 
     $("#add-train").on("click", function() {
         event.preventDefault();
-        // Storing and retreiving new train data
+        // Storing and retreiving new train stuff
         name = $("#train-name").val().trim();
         destination = $("#destination").val().trim();
         firstTrain = $("#first-train").val().trim();
         frequency = $("#frequency").val().trim();
 
-        // Pushing to database
+        
         database.ref().push({
             name: name,
             destination: destination,
